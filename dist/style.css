@@ -1,0 +1,67 @@
+body {
+    font-family: system-ui, sans-serif;
+    background-color: #dedede;
+}
+
+h1 {
+  text-align: center;
+  font-size: 3em;
+  margin: 50px;
+  text-shadow: 5px 1px #E307D1;
+}
+
+.container {
+  background-color: #fff;
+  display: block;
+  margin: 75px auto;
+  max-width: 500px;
+  border-radius: 10px;
+  box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+  text-align: center;
+  padding: 30px;
+}
+
+img {
+  margin-bottom: 20px;
+  margin-top: 20px;
+}
+
+.botao {
+  text-align: center;
+}
+
+button {
+  border: 0;
+  color: #FEFEFE;
+  background: #3D34EB;
+  box-shadow: 5px 5px #E307D1;
+  font-weight: bold;
+  font-size: 24px;
+  padding: 15px 20px;
+  margin: 20px;
+}
+
+button:active {
+  transform: translate(5px, 5px);
+  box-shadow: none;
+}
+
+h2 {
+  background-color: #E307D1;
+  color: #FEFEFE;
+  padding: 10px;
+  margin: 30px auto;
+  width: 300px;
+  text-align: center;
+}
+
+@media screen and (max-width:600px) {
+  img {
+    max-width: 320px;
+  }
+  
+  button {
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
